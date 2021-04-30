@@ -1,0 +1,406 @@
+/*ALL*/
+.ml-auto{
+    margin-left: auto;
+}
+.padding-lr{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.navbar-brand{
+    font-family: 'Viga';
+    font-size: 32px;
+}
+.p-5{
+    padding:5rem!important;
+}
+.bg-light{
+    background: linear-gradient(rgba(0, 0, 0, 0.308),rgba(63, 63, 63, 0)),url(../keperluan-statistik/backgorund-3.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
+}
+.lead,.display-4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight:600;
+    margin-top: 120px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    font-size: 36px;
+    text-align: center;
+}
+
+.display-4{
+    color: white;
+}
+.lead{
+color: rgb(231, 231, 231);
+margin-top: 0px !important;
+font-size: 15px;
+}
+.navbar-brand,.nav-link{
+    color: rgb(58, 58, 58) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.nav-link:hover{
+    color: rgb(197, 197, 197) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.col-md{
+    border-radius: 10px;
+}
+.pad{
+    margin-right: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+.pad img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+.pad h1{
+    text-align: center;
+}
+.container button {
+border: none;
+background: none;
+background-color: rgb(204, 250, 253);
+padding:40px;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.container h2{
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 50px auto;
+    font-family: "myriad-pro",Arial !important;
+    color: rgb(1, 76, 146);
+}
+.penampung{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: rgb(245, 245, 245);
+    max-width: 70%;
+}
+.penampung.active{
+    transform: translate(-50%,-50%) scale(1);
+}
+.penampung-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.penampung-header .judul{
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+.penampung-header .tombol-x{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0px;
+}
+.penampung-body{
+    padding: 10px 15px;
+}
+#hamparan{
+    position: fixed;
+    opacity: 0; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    pointer-events: none;
+    transition: 200ms ease-in-out;
+}
+ #hamparan.active{
+     opacity: 1;
+     pointer-events: all;
+ }
+ .list-group-item{
+     border: none !important;
+ }
+ .list-group li{
+    font-family: "myriad-pro",Arial !important;
+    transition: all 0.3s;
+ }
+ .list-group li:hover{
+    padding-left: 20px;
+    transition: all 0.3s;
+ }
+ .list-group-item:first-child{
+     color: rgb(0, 108, 209) ;
+     font-size: 19px;
+ }
+
+ .navbar-brand img{
+    width: 50px;
+    height: 45px;
+    margin-right: 10px;
+ }
+
+/*DESKTOP VERSION*/
+@media (min-width: 992px) {
+    
+    .navbar-brand,.nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 40px;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 2px solid #dfdfdf;
+        width: 60%;
+        margin: auto;
+        transition: 2s;
+        padding-bottom: 3px;
+        margin-bottom: -6px;
+    }
+    .nav-link:hover{
+        color: rgb(197, 197, 197) !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    }
+    .bg-light{
+        margin-top: -85px;
+        height: 640px;
+    }
+    .lead,.display-4{
+        font-size: 55px;
+        margin-top: 170px;
+    }
+    .lead{
+        font-size: 20px;
+    }
+
+
+
+    .col-md{
+        border-radius: 10px;
+    }
+    .pad{
+        padding:10px ;
+        margin-right: 10px;
+        background-color: rgb(204, 250, 253);
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    }
+    .pad img{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: auto;
+    }
+    .pad h1{
+        text-align: center;
+    }
+    .container{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .container h2{
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 50px auto;
+    }
+    .penampung{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        transition: 200ms ease-in-out;
+        border: 1px solid black;
+        border-radius: 10px;
+        z-index: 10;
+        background-color: rgb(245, 245, 245);
+        max-width: 60%;
+    }
+    .penampung.active{
+        transform: translate(-50%,-50%) scale(1);
+    }
+    .penampung-header{
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+    .penampung-header .judul{
+        font-size: 1.25rem;
+        font-weight: bold;
+
+    }
+    .penampung-header .tombol-x{
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding: 0px;
+    }
+    .penampung-body{
+        padding: 10px 15px;
+    }
+    #hamparan{
+        position: fixed;
+        opacity: 0; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.7);
+        pointer-events: none;
+        transition: 200ms ease-in-out;
+    }
+     #hamparan.active{
+         opacity: 1;
+         pointer-events: all;
+     }
+
+     .navbar-brand img{
+        width: 60px;
+        height: 55px;
+        margin-right: 10px;
+     }
+ }
+
+
+ /*MOBILE VERSION*/
+ @media (max-width: 576px) {
+    .navbar-brand img{
+        width: 40px;
+        height: 35px;
+        margin-right: 10px;
+     }
+    .navbar-brand{
+        font-size: 22px;
+    }
+    .nav-link:hover{
+        color: rgb(197, 197, 197) !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    }
+    .padding-lr{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .lead,.display-4{
+        text-align: center;
+        font-size: 27px;
+        margin-top: 70px;
+    }
+    .lead{
+        font-size: 12px;
+    }
+    .p-5{
+        padding: 3rem!important;
+    }
+    .bg-light{
+        height: 400px;
+    }
+    .col-md{
+        border-radius: 10px;
+        margin-bottom: 20px;
+       
+    }
+    .pad{
+        background-color: rgb(204, 250, 253);
+        box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        padding:10px ;
+        margin-right: 10px;
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .pad img{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: auto;
+    }
+    .container{
+        margin-top: 60px;
+    }
+    .container h2{
+        text-align: center;
+        font-size: 1.9rem;
+        margin-bottom: 50px;
+    }
+    .pad h1{
+        text-align: center;
+    }
+    .penampung{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        transition: 200ms ease-in-out;
+        border: 1px solid black;
+        border-radius: 10px;
+        z-index: 10;
+        background-color: rgb(245, 245, 245);
+        max-width: 80%;
+    }
+    .penampung.active{
+        transform: translate(-50%,-50%) scale(1);
+    }
+    .penampung-header{
+        padding: 10px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+    }
+    .penampung-header .judul{
+        font-size: 1.25rem;
+        font-weight: bold;
+
+    }
+    .penampung-header .tombol-x{
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: none;
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding: 0px;
+    }
+    .penampung-body{
+        padding: 10px 15px;
+    }
+    #hamparan{
+        position: fixed;
+        opacity: 0; 
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.7);
+        pointer-events: none;
+        transition: 200ms ease-in-out;
+    }
+     #hamparan.active{
+         opacity: 1;
+         pointer-events: all;
+     }
+ }

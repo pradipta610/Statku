@@ -1,0 +1,30 @@
+@media (max-width: 992px){
+    .btn{
+        margin-top: 8px;
+    }
+   
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-divider{
+    margin: .1rem 0;
+}
+.dropdown-menu{
+padding: .1rem 0;
+}
+.dropdown-item:hover{
+    background-color: #686868 !important;
+}
+.navbar-brand,.nav-link{
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.nav-link:hover{
+    color: rgb(197, 197, 197) !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.fa-user-alt:before {
+    margin-right: 10px !important;
+}

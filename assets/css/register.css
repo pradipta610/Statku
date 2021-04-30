@@ -1,0 +1,60 @@
+.auth-content{
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(231, 231, 231);
+    border-radius: 5px;
+}
+.auth-content .form-title,.auth-content form p{
+    text-align: center;
+}
+.auth-content form div{
+    margin-bottom: 10px;
+}
+.auth-content form p a{
+    color: rgb(110, 171, 252);
+}
+.auth-content form p a:hover{
+    color: rgb(0, 110, 255);
+}
+.btn-big{
+    font-size: 1.08em;
+}
+.buttondiv{
+    text-align: center;
+}
+.msg{
+    margin: 5px auto;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    list-style: none;
+}
+.success{
+    color: #3a6e3a;
+    border: 1px solid #3a6e3a;
+    background: #bcf5bc;
+    text-align: center;
+}
+.error{
+    color: #884b4b;
+    border: 1px solid #884b4b;
+    background: #f5bcbc;
+    text-align: center;
+}
+@media (max-width: 992px){
+.auth-content{
+    width: 50%;
+}
+}
+@media (max-width: 770px){
+    .auth-content{
+        width: 60%;
+    }
+}
+@media (max-width: 600px){
+  
+    .auth-content{
+        width: 90%;
+    }
+}
